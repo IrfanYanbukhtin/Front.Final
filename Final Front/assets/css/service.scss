@@ -1,0 +1,187 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+#maps{
+    h3{
+      color: #FF6400;
+        margin-top: 30px;
+        font-weight: bold;
+        padding-bottom: 10px;
+    }
+    #map {
+      width: 100%;
+      height: 325px;
+      margin-top: 90px;
+         
+      }
+      .allbuttons{
+          button{
+        padding: 15px 35px;
+        background-color: #FAFAFA;
+         margin: 0px 5px;
+         color: grey;
+         border: 2px solid  grey;
+         border-radius: 40px;
+        }
+     }
+    
+      #firstbtn{
+        padding: 15px 35px;
+         margin: 0px 5px;
+         border-radius: 40px;
+      }
+      .active{
+           color: #FF6400 ;
+           font-weight: bold ;
+           padding: 15px 35px;
+           margin: 0px 5px;
+           border-radius: 40px;
+           border: 2px solid #FF6400;
+           border-color: #FF6400;
+           background-color: white;
+      }
+  }
+  #time{
+    margin: 20px;
+    .xidmetvaxtlari{  
+      .samecard{
+        background-color: #FAFAFA;
+        width: 100%;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 200px;
+        &:hover{
+          background-color: #FF6400;
+          color: white;
+          font-weight: bold;
+          i{
+            color:white;
+          }
+        }
+        i{
+          color: #FF6400;
+        }    
+        .lefttext{
+          h4{
+            padding-top: 20px;
+            padding-left: 30px;
+          }
+          p{
+            width: 160%;
+            padding-left: 30px;
+          }
+    
+        }
+        .center{
+          display: flex;
+          padding-top: 20px;
+          i{
+            font-size: 40px;
+            padding-right: 8px;
+            padding-top: 6px;
+          }
+          p{
+            width: 65%;
+          }
+        }
+        .right{
+          display: flex;
+           padding-top: 20px;
+            
+          i{
+            padding-top: 6px;
+            padding-right: 10px;
+            font-size: 40px;
+          }
+          p{
+            width: 65%;
+          }
+        }       
+     }
+    }
+    .time{     
+      .samecard2{
+        background-color: #FAFAFA;
+        width: 100%;
+        &:hover{
+          transition: .5s;
+          background-color: #FF6400;
+          color: white;
+          i{
+            color: white;
+          }
+
+        }
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 200px;
+        .lefttext2{
+          h4{
+            padding-top: 20px;
+            padding-left: 30px;
+            width: 140%;
+          }
+          p{
+            width: 160%;
+            padding-left: 30px;
+          }
+    
+        }
+        .center2{
+          display: flex;
+          padding-top: 30px;
+          padding-left: 90px;
+          i{
+            font-size: 40px;
+            padding-right: 8px;
+            padding-top: 6px;
+            color: #FF6400;
+          }
+          p{
+            width: 65%;
+          }
+        }
+        .right2{
+          display: flex;
+           padding-top: 30px;
+           padding-right: 0px;
+           width: 45%;
+            
+          i{
+            padding-top: 0px;
+            padding-right: 10px;
+            font-size: 40px;
+          }
+          p{
+            font-size: 13px;
+            width: 90%;
+            padding-top: 10px
+          }
+        }
+        .right3{
+          display: flex;
+           padding-top: 30px;
+           width: 35%;
+            
+          i{
+            padding-top: 0px;
+            padding-right: 15px;
+            font-size: 40px;
+          }
+          p{
+            font-size: 13px;
+            width: 90%;
+            padding-top: 10px
+          }
+        } 
+      }
+  }
+}

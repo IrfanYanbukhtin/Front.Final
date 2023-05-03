@@ -1,0 +1,983 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.container1 {
+  padding: 0rem 4.8rem;
+}
+
+.all {
+  display: flex;
+  justify-content: space-between;
+  background: #FAFAFA;
+  padding: 10px;
+}
+.all .all_left {
+  padding-top: 10px;
+  padding-left: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.all .all_left .logo img {
+  width: 50%;
+}
+.all .all_left nav a {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 13px;
+  color: #323232;
+  line-height: 12px;
+  padding-left: 20px;
+  word-spacing: 2px;
+}
+.all .all_right {
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+  padding-right: 10px;
+}
+.all .all_right .ferdi {
+  display: inline-block;
+  border: 1px solid #FF6400;
+  border-radius: 6px;
+  background-color: white;
+  color: #FF6400;
+  width: 18%;
+  cursor: pointer;
+  padding: 1px 21px;
+  font-weight: 600;
+  font-size: 13px;
+}
+.all .all_right .biznes {
+  display: inline-block;
+  border-radius: 6px;
+  background-color: white;
+  color: black;
+  width: 18%;
+  cursor: pointer;
+  padding: 7px 21px;
+  font-weight: 600;
+  font-size: 13px;
+}
+.all .all_right .theme {
+  margin-right: 0.8rem;
+}
+.all .all_right .theme i {
+  font-size: 16px;
+  padding: 8px 10px 9px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.all .all_right .theme .night {
+  color: white;
+  background-color: #323232;
+}
+.all .all_right .theme .morning {
+  color: #323232;
+  background-color: white;
+}
+.all .all_right .language {
+  background-color: white;
+  color: black;
+  padding: 1xp 3px;
+  border-radius: 5px;
+  margin-right: 10px;
+  width: 10%;
+  display: inline;
+  align-items: center;
+  cursor: pointer;
+}
+.all .all_right .language span {
+  padding-left: 9px;
+  font-weight: 600;
+  font-size: 13px;
+}
+.all .all_right .search {
+  width: 8%;
+  padding: 5px 13px;
+  border-radius: 6px;
+  margin-left: 10px;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+.all .all_right .color {
+  color: #FF6400;
+  cursor: pointer;
+  border: 1px solid #FF6400;
+}
+.all .all_right .defaultcolor {
+  color: black;
+  border: 1px solid white;
+}
+
+.all2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 2rem;
+}
+.all2 .all2_left {
+  display: flex;
+  padding-top: 25px;
+  gap: 40px;
+}
+.all2 .all2_left a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 550;
+  color: black;
+}
+.all2 .all2_right {
+  padding-top: 25px;
+  display: flex;
+  justify-content: center;
+}
+.all2 .all2_right .cardshop {
+  margin-right: 10px;
+  padding: 6px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 30%;
+}
+.all2 .all2_right .cardshop a {
+  text-decoration: none;
+}
+.all2 .all2_right .cardshop a i {
+  color: #FF6400;
+}
+.all2 .all2_right .cardshop a span {
+  color: black;
+}
+.all2 .all2_right .phone {
+  width: 24%;
+  padding: 13px 23px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 40px;
+}
+.all2 .all2_right .phone a {
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+  margin-left: 5px;
+}
+.all2 .all2_right .phone i {
+  color: #FF6400;
+  font-size: 18px;
+}
+.all2 .all2_right .appbank {
+  width: 45%;
+  padding: 11px 15px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 40px;
+  margin-left: 15px;
+  display: inline-block;
+}
+.all2 .all2_right .appbank a {
+  text-decoration: none;
+  color: black;
+  font-weight: 550;
+  padding-left: 5px;
+}
+.all2 .all2_right .appbank i {
+  color: #FF6400;
+  font-size: 21px;
+}
+
+.main {
+  margin-top: 40px;
+}
+.main .sliderfirst {
+  height: 28rem;
+  border-radius: 10px;
+  background-color: #FF6400;
+  position: relative;
+}
+.main .sliderfirst #text1 span {
+  position: absolute;
+  top: 6rem;
+  right: 8rem;
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+}
+.main .sliderfirst .kredit {
+  position: absolute;
+  left: 15%;
+  width: 33%;
+  top: 13%;
+}
+.main .sliderfirst .rocketimgtext2 p {
+  position: absolute;
+  top: 11rem;
+  padding-right: 100px;
+  left: 43rem;
+  font-family: Arial;
+  color: #fbf4ef;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 181%;
+}
+.main .sliderfirst .more {
+  position: absolute;
+  right: 36%;
+  bottom: 23%;
+}
+.main .sliderfirst .more #link {
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+  padding: 12px 20px;
+  border: 1px solid white;
+  border-radius: 20px;
+}
+.main .slider1 {
+  height: 28rem;
+  border-radius: 10px;
+  background-color: #FF6400;
+  position: relative;
+}
+.main .slider1 #text1 > span {
+  position: absolute;
+  top: 6rem;
+  right: 20rem;
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+}
+.main .slider1 .rocket {
+  position: absolute;
+  left: 15%;
+  width: 33%;
+  top: 13%;
+}
+.main .slider1 .rocketimgtext2 p {
+  position: absolute;
+  top: 11rem;
+  padding-right: 100px;
+  left: 43rem;
+  font-family: Arial;
+  color: #fbf4ef;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 181%;
+}
+.main .slider1 .more {
+  position: absolute;
+  right: 36%;
+  bottom: 23%;
+}
+.main .slider1 .more #link {
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+  padding: 12px 20px;
+  border: 1px solid white;
+  border-radius: 20px;
+  background-color: transparent;
+}
+.main .burgermenu {
+  display: none;
+}
+.main .more2 {
+  position: absolute;
+  right: 39%;
+  bottom: 23%;
+}
+.main .slider2 {
+  height: 28rem;
+  border-radius: 10px;
+  background-color: #FF6400;
+  position: relative;
+}
+.main .slider2 .imgmoney {
+  position: absolute;
+  top: 27%;
+  left: 10%;
+}
+.main .slider2 .imgmoney img {
+  width: 100%;
+}
+.main .slider2 .topla {
+  position: absolute;
+  right: 39%;
+  color: #ffffff;
+  font-size: 45px;
+  top: 22%;
+  font-weight: bold;
+}
+.main .slider2 .kocurme {
+  position: absolute;
+  width: 50%;
+  right: -2%;
+  top: 43%;
+  color: white;
+}
+.main .slider2 .kocurme p {
+  padding-right: 112px;
+}
+.main .slider2 .more2 {
+  position: absolute;
+  right: 39%;
+  bottom: 23%;
+}
+.main .slider2 .more2 #link {
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+  padding: 12px 20px;
+  border: 1px solid white;
+  border-radius: 20px;
+  background-color: transparent;
+}
+.main .slider3 {
+  height: 28rem;
+  border-radius: 10px;
+  background-color: #FF6400;
+  position: relative;
+}
+.main .slider3 .art {
+  position: absolute;
+  left: 10%;
+}
+.main .slider3 .art .youcard img {
+  width: 100%;
+}
+.main .slider3 .art-text {
+  position: absolute;
+  right: 9%;
+  top: 32%;
+}
+.main .slider3 #designtext {
+  font-size: 40px;
+  color: white;
+  font-weight: bold;
+}
+.main .slider3 .art-card {
+  position: absolute;
+  left: 51%;
+  padding-right: 150px;
+  top: 51%;
+}
+.main .slider3 .ubank {
+  color: white;
+  font-size: 15px;
+}
+.main .slider4 {
+  height: 28rem;
+  border-radius: 10px;
+  background-color: #FF6400;
+  position: relative;
+}
+.main .free {
+  position: absolute;
+  top: 26.1%;
+  left: 10%;
+}
+.main .free img {
+  width: 100%;
+}
+.main .cardtocard {
+  position: absolute;
+  right: 11%;
+  top: 32%;
+}
+.main .cardtocard p {
+  font-size: 35px;
+  color: white;
+  font-weight: bold;
+}
+.main .percent {
+  position: absolute;
+  left: 54.4%;
+  padding-right: 150px;
+  top: 48%;
+}
+.main .percent p {
+  color: white;
+  font-size: 15px;
+}
+.main #card1 {
+  margin-top: 3.7rem;
+}
+.main #card1 #card {
+  text-align: center;
+  height: 300px;
+  background-color: #FAFAFA;
+  border: none;
+  border-radius: 15px;
+}
+.main #card1 #card #percent {
+  font-size: 50px;
+  color: #FF6400;
+  font-weight: bold;
+  text-align: center;
+}
+.main #card1 #card .card-title {
+  font-size: 25px;
+  padding: 10px;
+}
+.main #card1 #card .info {
+  font-size: 17px;
+  margin-bottom: 3rem;
+}
+.main #card1 #card .buy {
+  font-size: 17px;
+  font-weight: 600;
+  color: white;
+  text-decoration: none;
+  padding: 15px 45px;
+  background-color: #FF6400;
+  border: 1px solid rgb(232, 232, 232);
+  border-radius: 40px;
+}
+
+#Ucard {
+  background-color: #FAFAFA;
+  height: 29rem;
+  border-radius: 10px;
+  margin-top: 4.8rem;
+  position: relative;
+  left: 6.6rem;
+  width: 86%;
+}
+#Ucard .ucardgif {
+  position: relative;
+}
+#Ucard .ucardgif #img {
+  width: 369%;
+  position: absolute;
+  top: -89px;
+  left: -20px;
+}
+#Ucard .ucard-text {
+  position: relative;
+}
+#Ucard .ucard-text .info {
+  position: absolute;
+  padding-top: 90px;
+}
+#Ucard .ucard-text .info .ucardbar {
+  width: 150%;
+  margin-left: 220px;
+}
+#Ucard .ucard-text .info .ucardbar h2 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #FF6400;
+}
+#Ucard .ucard-text .info .ucardinfo {
+  width: 200%;
+  position: absolute;
+  font-size: 16px;
+  font-weight: 200;
+  left: 222px;
+  color: black;
+  line-height: 23px;
+  word-spacing: 1px;
+}
+#Ucard .own {
+  position: absolute;
+  top: 57%;
+  left: 52%;
+}
+#Ucard .own .apply {
+  position: relative;
+}
+#Ucard .own .apply .etrafli {
+  padding: 12px 25px;
+  border: none;
+  border-radius: 50px;
+  color: white;
+  background-color: #FF6400;
+  border-radius: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+#Ucard .own .apply .partnyorlar {
+  padding: 12px 24px;
+  margin-left: 40px;
+  border: 1px solid #c6c4c4;
+  border-radius: 50px;
+  color: #969696;
+  background-color: #FAFAFA;
+  border: 1px solid #c6c4c4;
+  font-weight: bold;
+  cursor: pointer;
+}
+#Ucard .own .apply .sexsi {
+  margin-left: 55px;
+  position: absolute;
+  left: 5%;
+  cursor: pointer;
+}
+#Ucard .own .apply .sexsi .sexsikabinet {
+  padding: 12px 24px;
+  border-radius: 50px;
+  border: 1px solid #c6c4c4;
+  background-color: #FAFAFA;
+  margin-left: 190px;
+  width: 55%;
+}
+#Ucard .own .apply .sexsi .sexsikabinet span {
+  color: #969696;
+  font-weight: bold;
+}
+
+.phoneapp {
+  background-color: #FAFAFA;
+  border-radius: 10px;
+  height: 25rem;
+  margin-top: 45px;
+  width: 86%;
+  left: 6.6rem;
+  position: relative;
+}
+.phoneapp .ubank {
+  margin-top: 60px;
+  margin-left: 50px;
+}
+.phoneapp .ubank h3 {
+  color: #FF6400;
+  font-weight: bold;
+}
+.phoneapp .apptext p {
+  width: 760%;
+  margin-left: 50px;
+  line-height: 24px;
+}
+.phoneapp .links {
+  margin-top: 50px;
+  margin-left: 8px;
+}
+.phoneapp .links .store {
+  margin: 0px 30px;
+}
+.phoneapp .links .store img {
+  width: 150%;
+}
+.phoneapp .ubankinfo {
+  padding: 15px 48px;
+  border: none;
+  border-radius: 40px;
+  margin-top: 35px;
+  margin-left: 60px;
+  background-color: #FF6400;
+}
+.phoneapp .ubankinfo a {
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+}
+.phoneapp .ubank-right {
+  position: relative;
+}
+.phoneapp .ubank-right .phone img {
+  height: 500px;
+  width: 560px;
+  position: absolute;
+  top: -100px;
+  left: -200px;
+}
+
+#currency {
+  background-color: #FAFAFA;
+  border-radius: 10px;
+  width: 86%;
+  left: 6.6rem;
+  position: relative;
+  margin-top: 2.2rem;
+  padding: 20px 80px;
+  overflow: hidden;
+}
+#currency .allcurrency {
+  display: flex;
+  justify-content: space-between;
+}
+#currency .allcurrency .currencytop h3 {
+  color: #FF6400;
+  font-weight: bold;
+  padding-top: 18px;
+  font-size: 36px;
+}
+#currency .allcurrency #money {
+  padding-top: 50px;
+  padding: 0px 40px;
+}
+#currency .allcurrency #money .title {
+  color: black;
+  font-size: 30px;
+  font-weight: bold;
+  font-size: 20px;
+}
+#currency .allcurrency #money #date {
+  font-size: 13px;
+  word-spacing: 1px;
+  color: rgba(50, 50, 50, 0.5);
+}
+#currency .allcurrency #money .line {
+  width: 83%;
+}
+#currency .allcurrency #money .val {
+  font-size: 13px;
+  color: grey;
+  word-spacing: 50px;
+}
+#currency .allcurrency #money .cash {
+  font-size: 15px;
+  color: #323232;
+  font-weight: bold;
+  word-spacing: 60px;
+}
+#currency .space {
+  background-color: white;
+  border-radius: 10px;
+  width: 97%;
+  height: 150px;
+  left: 1.5rem;
+  position: relative;
+  margin-top: 2.2rem;
+  margin-bottom: 2.5rem;
+  box-shadow: 0px 5px 20px 0px #b3b0b0;
+}
+#currency .space .kalk h1 {
+  position: absolute;
+  left: 30px;
+  top: 50px;
+  line-height: 18px;
+  font-weight: 600;
+  font-size: 19px;
+  color: #000;
+  padding-bottom: 10px;
+  word-spacing: 3px;
+}
+#currency .space .kalk p {
+  position: absolute;
+  left: 30px;
+  bottom: 40px;
+  line-height: 12px;
+  font-size: 14px;
+  color: rgba(50, 50, 50, 0.5);
+}
+#currency .space .flags {
+  position: relative;
+}
+#currency .space .flags .us {
+  position: relative;
+}
+#currency .space .flags .us .sidea {
+  position: absolute;
+  right: 400px;
+  top: 40px;
+  font-size: 20px;
+  border: 1px solid rgba(50, 50, 50, 0.1);
+  border-radius: 5px;
+  padding: 23px;
+  width: 28%;
+}
+#currency .space .flags .us .sideb {
+  position: absolute;
+  right: -20px;
+  top: 60px;
+}
+#currency .space .flags .us .sideb img {
+  width: 8%;
+}
+#currency .space .flags .az {
+  position: relative;
+}
+#currency .space .flags .az .sidec {
+  position: absolute;
+  right: 30px;
+  top: 40px;
+  font-size: 20px;
+  border: 1px solid rgba(50, 50, 50, 0.1);
+  border-radius: 5px;
+  padding: 23px;
+  width: 28%;
+}
+#currency .space .flags .az .sided {
+  position: absolute;
+  right: -400px;
+  top: 63px;
+}
+#currency .space .flags .az .sided img {
+  width: 5%;
+  border-radius: 20px;
+}
+#currency .space .flags .arrow {
+  position: relative;
+}
+#currency .space .flags .arrow i {
+  position: absolute;
+  color: #FF6400;
+  right: 355px;
+  top: 68px;
+  font-size: 23px;
+}
+
+#ubank-news {
+  margin-top: 50px;
+  overflow: hidden;
+}
+#ubank-news .all {
+  display: flex;
+  justify-content: space-between;
+  background-color: #FAFAFA;
+  border-radius: 10px;
+  width: 99.5%;
+  position: relative;
+  left: 1.3rem;
+}
+#ubank-news .all a {
+  text-decoration: none;
+}
+#ubank-news .all .ucard {
+  border-radius: 10px;
+  height: 20rem;
+  margin-bottom: 15px;
+}
+#ubank-news .all .ucard .first {
+  background-color: #FAFAFA;
+}
+#ubank-news .all .ucard .first .top {
+  color: #FF6400;
+  font-size: 18px;
+  font-weight: 700;
+  padding-left: 15px;
+  padding-right: 10px;
+  width: 110%;
+  padding-top: 25px;
+}
+#ubank-news .all .ucard .first .info {
+  font-size: 15px;
+  line-height: 25px;
+  color: gray;
+  padding: 0px 15px;
+}
+#ubank-news .all .ucard .first #date {
+  color: gray;
+  font-size: 13px;
+  padding-left: 16px;
+}
+#ubank-news .all .second .top {
+  color: #FF6400;
+  font-size: 18px;
+  font-weight: 700;
+  padding-left: 0px;
+  padding-right: 10px;
+  width: 110%;
+  padding-top: 25px;
+}
+#ubank-news .all .second .info {
+  font-size: 15px;
+  line-height: 23px;
+  color: gray;
+}
+#ubank-news .all .second #date {
+  color: gray;
+  font-size: 13px;
+  padding-top: 35px;
+}
+#ubank-news .all .third .top {
+  color: #FF6400;
+  font-size: 18px;
+  font-weight: 700;
+  padding-left: 0px;
+  padding-right: 10px;
+  width: 110%;
+  padding-top: 25px;
+}
+#ubank-news .all .third .info {
+  font-size: 12.7px;
+  line-height: 23px;
+  width: 101%;
+  color: gray;
+  padding-left: 0.9px;
+}
+#ubank-news .all .third #date {
+  color: gray;
+  font-size: 13px;
+  padding-top: 53px;
+}
+
+.news {
+  text-align: center;
+  z-index: 666;
+}
+.news #newsall {
+  transform: translateY(-50%, -50%);
+  margin-top: 40px;
+  padding: 13px 25px;
+  border: none;
+  border-radius: 40px;
+  background-color: #FF6400;
+}
+.news #newsall #link {
+  text-decoration: none;
+  color: #FF6400;
+  font-weight: bold;
+  color: white;
+}
+
+#dot .all {
+  position: relative;
+  left: 7rem;
+  width: 86%;
+  display: flex;
+  justify-content: space-between;
+  padding: 3.6rem 2rem;
+  margin-top: 2.7rem;
+  border-radius: 10px;
+}
+#dot .all .service {
+  padding: 1rem 2rem;
+  height: 225px;
+  margin-bottom: 1rem;
+}
+#dot .all .service h2 {
+  font-size: 30px;
+  font-weight: bold;
+  width: 50%;
+  color: #FF6400;
+}
+#dot .all .service p {
+  font-size: 17px;
+  width: 60%;
+  margin-bottom: 2rem;
+}
+#dot .all .service a {
+  font-size: 12px;
+  background-color: #FF6400;
+  border: none;
+  padding: 20px 50px;
+  border-radius: 40px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+}
+#dot .all .service img {
+  width: 20%;
+  position: absolute;
+  left: 39%;
+  top: 76px;
+}
+#dot .all .connection {
+  margin-bottom: 1rem;
+}
+#dot .all .connection h2 {
+  font-size: 30px;
+  font-weight: bold;
+  width: 75%;
+  margin-bottom: 1rem;
+  color: #FF6400;
+}
+#dot .all .connection p {
+  font-size: 17px;
+  width: 90%;
+  margin-bottom: 2rem;
+}
+#dot .all .connection a {
+  font-size: 12px;
+  background-color: #FF6400;
+  border: none;
+  padding: 20px 50px;
+  border-radius: 40px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+}
+#dot .all .connection img {
+  position: absolute;
+  right: 18px;
+  top: 0px;
+}
+
+footer {
+  margin-top: 10rem;
+}
+footer #footer1 a {
+  text-decoration: none;
+}
+footer #footer1 .footer1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+footer #footer1 .footer1 .list .first {
+  color: black;
+  font-weight: 700;
+}
+footer #footer1 .footer1 .list .second {
+  color: rgb(44, 44, 44);
+  font-weight: 500;
+  font-size: 13px;
+}
+footer #footer1 .icons {
+  margin-bottom: 2rem;
+}
+footer #footer1 .icons .orange {
+  color: #FF6400;
+}
+footer #footer1 .icons .round {
+  border-radius: 50%;
+}
+footer #footer1 .icons i {
+  padding-left: 18px;
+  font-size: 27px;
+  color: gray;
+}
+
+#footer2 {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+#footer2 .footerleft {
+  width: 60%;
+}
+#footer2 .footerleft .top {
+  color: #333333;
+  font-size: 13px;
+}
+#footer2 .footerleft .bot {
+  color: rgb(111, 111, 111);
+  font-size: 13px;
+  font-weight: 100;
+  word-spacing: 2px;
+  width: 90%;
+}
+#footer2 .footerimg {
+  width: 40%;
+  display: flex;
+  align-items: center;
+}
+#footer2 .footerimg .sigorta {
+  width: 40%;
+}
+#footer2 .footerimg .sigorta img {
+  width: 60%;
+}
+#footer2 .footerimg .elektron {
+  width: 40%;
+}
+#footer2 .footerimg .elektron img {
+  width: 130%;
+}
+#footer2 .footerimg .infobank {
+  width: 40%;
+  margin-left: 30px;
+}
+#footer2 .footerimg .infobank img {
+  width: 80%;
+}
+#footer2 .footerimg .portal {
+  margin-left: 10px;
+  width: 40%;
+}
+#footer2 .footerimg .portal img {
+  width: 100%;
+}/*# sourceMappingURL=style.css.map */

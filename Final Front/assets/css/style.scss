@@ -1,0 +1,1117 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container1{
+    padding: 0rem 4.8rem;
+}
+
+.all{
+    display: flex;
+    justify-content: space-between;
+    background: #FAFAFA;
+    padding: 10px;
+    .all_left{
+        padding-top: 10px;
+        padding-left: 20px;
+       display: flex;
+       justify-content: space-between;
+        .logo{
+            img{
+                width: 50%;
+            }
+        }
+
+        nav{
+            a{
+                text-decoration: none;
+                font-weight: 400;
+                font-size: 13px;
+                color: #323232;
+                line-height: 12px;
+                padding-left: 20px;
+                word-spacing: 2px;
+            }
+        }
+    }
+
+    .all_right{
+        display: flex;
+        justify-content: center;
+        padding-top: 10px;
+        padding-right: 10px;
+      .ferdi{
+        display: inline-block;
+        border: 1px solid #FF6400;
+        border-radius: 6px;
+        background-color: white;
+        color: #FF6400;
+        width: 18%;
+        cursor: pointer;
+        padding: 1px 21px;
+        font-weight: 600;
+        font-size: 13px;
+      
+      }
+
+      .biznes{
+        display: inline-block;
+        border-radius: 6px;
+        background-color: white;
+        color: black;
+        width: 18%;
+        cursor: pointer;
+        padding: 7px 21px;
+        font-weight: 600;
+        font-size: 13px;
+      }
+
+      .theme{
+        margin-right: 0.8rem;
+        
+        i{
+            font-size: 16px;
+            padding: 8px 10px 9px 10px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .night{
+            color: white;
+            background-color: #323232;
+        }
+
+        .morning{
+            color: #323232;
+            background-color: white;
+        }
+    }
+
+      .language{
+        background-color: white;
+        color: black;
+        padding: 1xp 3px;
+        border-radius: 5px;
+        margin-right: 10px;
+        width: 10%;
+        display: inline;
+        align-items: center;
+        cursor: pointer;
+        span{
+            padding-left: 9px;
+            font-weight: 600;
+            font-size: 13px;
+        }
+      }
+
+      .search{
+        width: 8%;
+        padding: 5px 13px;
+        border-radius: 6px;
+        margin-left: 10px;
+        background-color: #ffffff;
+        cursor: pointer;
+      }
+
+      .color {
+        color: #FF6400;
+        cursor: pointer;
+        border: 1px solid #FF6400;
+      }
+
+      .defaultcolor {
+        color: black;
+        border: 1px solid #ffffffff;
+      }
+      
+      
+    }
+}
+
+.all2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 2rem;
+
+  .all2_left{
+    display: flex;
+    padding-top: 25px;
+    gap: 40px;
+    a{
+      text-decoration: none;
+      font-size: 20px;
+      font-weight: 550;
+      color:  black;
+    }
+  }
+
+  .all2_right{
+    padding-top: 25px;
+    display: flex;
+    justify-content: center;
+
+    .cardshop{
+      margin-right: 10px;
+      padding: 6px;
+      border: 1px solid rgba(0,0,0,.1);;
+      border-radius: 30%;
+    a{
+      text-decoration: none;
+      i{
+        color: #FF6400;
+      }
+       
+      span{
+      color: black;
+    }
+    }
+    }
+    .phone{
+      width: 24%;
+      padding: 13px 23px;
+      border: 1px solid rgba(0,0,0,.1);;
+      border-radius: 40px;
+      a{
+        text-decoration: none;
+        color: black;
+        font-weight: 700;
+        margin-left: 5px;
+      }
+      
+      i{
+        color: #FF6400;
+        font-size: 18px;
+      }
+    }
+
+    .appbank{
+      width: 45%;
+      padding: 11px 15px;
+      border: 1px solid rgba(0,0,0,.1);;
+      border-radius: 40px;
+      margin-left: 15px;
+      display: inline-block;
+      a{
+        text-decoration: none;
+        color: black;
+        font-weight: 550;
+        padding-left: 5px;
+
+      }
+
+      i{
+        color: #FF6400;
+        font-size: 21px;
+        
+        
+      }
+
+    }
+  }
+}
+
+.main {
+  margin-top: 40px;
+  
+  .sliderfirst{
+    height: 28rem;
+    border-radius: 10px;
+    background-color: #FF6400;
+    position: relative;
+
+    #text1 span {
+      position: absolute;
+      top: 6rem;
+      right: 8rem;
+      color: white;
+      font-size: 40px;
+      font-weight: bold;
+    }
+
+    .kredit{
+      position: absolute;
+      left: 15%;
+      width: 33%;
+      top: 13%;
+    }
+
+    .rocketimgtext2 p{
+      position: absolute;
+      top: 11rem;
+      padding-right: 100px;
+      left: 43rem;
+      font-family: Arial;
+      color: #fbf4ef;
+      font-weight: bold;
+      font-size: 15px;
+      line-height: 181%;
+    }
+
+    .more{
+      position: absolute;
+      right: 36%;
+      bottom: 23%;
+
+      #link{
+        text-decoration: none;
+        color: white;
+        font-weight: 700;
+        padding: 12px 20px;
+        border: 1px solid white;
+        border-radius: 20px;
+      }
+    }
+  }
+
+  .slider1 {
+    height: 28rem;
+    border-radius: 10px;
+    background-color: #FF6400;
+    position: relative;
+
+    #text1>span {
+      position: absolute;
+      top: 6rem;
+      right: 20rem;
+      color: white;
+      font-size: 40px;
+      font-weight: bold;
+    }
+
+    .rocket{
+      position: absolute;
+      left: 15%;
+      width: 33%;
+      top: 13%;
+    }
+
+    .rocketimgtext2 p {
+      position: absolute;
+      top: 11rem;
+      padding-right: 100px;
+      left: 43rem;
+      font-family: Arial;
+      color: #fbf4ef;
+      font-weight: bold;
+      font-size: 15px;
+      line-height: 181%;
+    }
+
+    .more{
+      position: absolute;
+      right: 36%;
+      bottom: 23%;
+  
+      #link{
+        text-decoration: none;
+        color: white;
+        font-weight: 700;
+        padding: 12px 20px;
+        border: 1px solid white;
+        border-radius: 20px;
+        background-color: transparent;
+      }
+    }
+  }
+
+  .burgermenu{
+    display: none;
+  }
+
+  .more2{
+    position: absolute;
+    right: 39%;
+    bottom: 23%;
+  }
+
+  .slider2{
+    height: 28rem;
+    border-radius: 10px;
+    background-color: #FF6400;
+    position: relative;
+
+    .imgmoney{
+      position: absolute;
+      top: 27%;
+      left: 10%;
+
+      img{
+        width: 100%;
+      }
+    }
+
+    .topla{
+      position: absolute;
+      right: 39%;
+      color: #ffffff;
+      font-size: 45px;
+      top: 22%;
+      font-weight: bold;
+    }
+
+    .kocurme{
+      position: absolute;
+      width: 50%;
+      right: -2%;
+      top: 43%;
+      color: white;
+
+      p{
+        padding-right: 112px;
+      }
+    }
+
+    .more2 {
+      position: absolute;
+      right: 39%;
+      bottom: 23%;
+      #link{
+        text-decoration: none;
+        color: white;
+        font-weight: 700;
+        padding: 12px 20px;
+        border: 1px solid white;
+        border-radius: 20px;
+        background-color: transparent;
+      }
+    }
+  }
+
+  .slider3{
+    height: 28rem;
+    border-radius: 10px;
+    background-color: #FF6400;
+    position: relative;
+
+    .art{
+      position: absolute;
+      left: 10%;
+      .youcard img{
+        width: 100%
+      }
+    }
+
+    .art-text{
+      position: absolute;
+      right: 9%;
+      top: 32%
+    }
+
+    #designtext {
+      font-size: 40px;
+      color: white;
+      font-weight: bold;
+    }
+
+    .art-card {
+      position: absolute;
+      left: 51%;
+      padding-right: 150px;
+      top: 51%;
+    }
+  
+    .ubank {
+      color: white;
+      font-size: 15px;
+    }
+  }
+
+  .slider4 {
+    height: 28rem;
+    border-radius: 10px;
+    background-color: #FF6400;
+    position: relative;
+  }
+
+  .free{
+    position: absolute;
+    top: 26.1%;
+    left: 10%;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  .cardtocard {
+    position: absolute;
+    right: 11%;
+    top: 32%;
+
+    p {
+      font-size: 35px;
+      color: white;
+      font-weight: bold;
+    }
+  }
+
+  .percent {
+    position: absolute;
+    left: 54.4%;
+    padding-right: 150px;
+    top: 48%;
+
+    p {
+      color: white;
+      font-size: 15px;
+
+    }
+  }
+
+  #card1{
+    margin-top: 3.7rem;
+
+    #card {
+      text-align: center;
+      height: 300px;
+      background-color: #FAFAFA;
+      border: none;
+      border-radius: 15px;
+
+      #percent {
+        font-size: 50px;
+        color: #FF6400;
+        font-weight: bold;
+        text-align: center;
+      }
+  
+      .card-title {
+        font-size: 25px;
+        padding: 10px;
+      }
+  
+      .info {
+        font-size: 17px;
+        margin-bottom: 3rem;
+      }
+  
+      .buy {
+        font-size: 17px;
+        font-weight: 600;
+        color: white;
+        text-decoration: none;
+        padding: 15px 45px;
+        background-color: #FF6400;
+        border: 1px solid rgb(232, 232, 232);
+        border-radius: 40px;
+      }
+    }
+  }
+}
+
+#Ucard {
+  background-color: #FAFAFA;
+  height: 29rem;
+  border-radius: 10px;
+  margin-top: 4.8rem;
+  position: relative;
+  left: 6.6rem;
+  width: 86%;
+
+  .ucardgif {
+    position: relative;
+
+    #img {
+      width: 369%;
+      position: absolute;
+      top: -89px;
+      left: -20px;
+    }
+  }
+
+  .ucard-text {
+    position: relative;
+    .info {
+      position: absolute;
+      padding-top: 90px;
+
+      .ucardbar {
+        width: 150%;
+        margin-left: 220px;
+        h2 {
+          font-size: 36px;
+          font-weight: bold;
+          color: #FF6400;
+        }
+      }
+
+      .ucardinfo{
+        width: 200%;
+        position: absolute;
+        font-size: 16px;
+        font-weight: 200;
+        left: 222px;
+        color: black;
+        line-height: 23px;
+        word-spacing: 1px;
+      }
+    }
+  }
+
+  .own{
+    position: absolute;
+    top: 57%;
+    left: 52%;
+    .apply{
+      position: relative;
+
+      .etrafli {
+        padding: 12px 25px;
+        border: none;
+        border-radius: 50px;
+        color: white;
+        background-color: #FF6400;
+        border-radius: 20px;
+        font-weight: bold;
+        cursor: pointer;
+      }
+
+      .partnyorlar {
+        padding: 12px 24px;
+        margin-left: 40px;
+        border: 1px solid #c6c4c4;
+        border-radius: 50px;
+        color: #969696;
+        background-color: #FAFAFA;
+        border: 1px solid #c6c4c4;
+        font-weight: bold;
+        cursor: pointer;
+      }
+
+      .sexsi {
+        margin-left: 55px;
+        position: absolute;
+        left: 5%;
+        cursor: pointer;
+
+        .sexsikabinet {
+          padding: 12px 24px;
+          border-radius: 50px;
+          border: 1px solid #c6c4c4;
+          background-color: #FAFAFA;
+          margin-left: 190px;
+          width: 55%;
+
+          span {
+            color: #969696;
+            font-weight: bold;
+          }
+        }
+      }
+    }
+  }
+}
+
+.phoneapp{
+  background-color: #FAFAFA;
+  border-radius: 10px;
+  height: 25rem;
+  margin-top: 45px;
+  width: 86%;
+  left: 6.6rem;
+  position: relative;
+
+  .ubank {
+    margin-top: 60px;
+    margin-left: 50px;
+    h3 {
+      color: #FF6400;
+      font-weight: bold;
+    }
+  }
+
+  .apptext{
+    p {
+      width: 760%;
+      margin-left: 50px;
+      line-height: 24px;
+    }
+  }
+
+  .links {
+    margin-top: 50px;
+    margin-left: 8px;
+    .store{
+      margin: 0px 30px;
+      img{
+         width: 150%;
+      }
+    }
+  }
+
+  .ubankinfo{
+    padding: 15px 48px;
+    border: none;
+    border-radius: 40px;
+    margin-top: 35px;
+    margin-left: 60px;
+    background-color: #FF6400;
+    a {
+      text-decoration: none;
+      font-weight: bold;
+      color: white;
+    }
+  }
+
+  .ubank-right {
+    position: relative;
+    .phone{
+      img {
+        height: 500px;
+        width: 560px;
+        position: absolute;
+        top: -100px;
+        left: -200px;
+      }
+    }
+  }
+}
+
+#currency{
+  background-color: #FAFAFA;
+  border-radius: 10px;
+  width: 86%;
+  left: 6.6rem;
+  position: relative;
+  margin-top: 2.2rem;
+  padding: 20px 80px;
+  overflow: hidden;
+
+  .allcurrency{
+    display: flex;
+    justify-content: space-between;
+    .currencytop h3{
+      color: #FF6400;
+      font-weight: bold;
+      padding-top: 18px;
+      font-size: 36px;
+    }
+
+    #money{
+      padding-top: 50px;
+      padding: 0px  40px;
+      .title{
+        color: black;
+        font-size: 30px;
+        font-weight: bold;
+        font-size: 20px;
+      }
+      #date{
+        font-size: 13px;
+        word-spacing: 1px;
+        color: rgba(50,50,50,.5);
+      }
+      .line{
+        width: 83%
+  
+      }
+      .val{
+        font-size: 13px;
+        color: grey;
+        word-spacing: 50px;
+      }
+      .cash{
+        font-size: 15px;
+        color: #323232;
+        font-weight: bold;
+        word-spacing: 60px;
+      }
+    }
+  }
+
+  .space{
+    background-color: white;
+    border-radius: 10px;
+    width: 97%;
+    height: 150px;
+    left: 1.5rem;
+    position: relative;
+    margin-top: 2.2rem;
+    margin-bottom: 2.5rem;
+    box-shadow: 0px 5px 20px 0px #b3b0b0;
+
+    .kalk{
+      h1{ 
+        position: absolute;
+        left: 30px;
+        top: 50px;
+        line-height: 18px;
+        font-weight: 600;
+        font-size: 19px;
+        color: #000;
+        padding-bottom: 10px;
+        word-spacing: 3px;
+       }
+
+       p{
+        position: absolute;
+        left: 30px;
+        bottom: 40px;
+        line-height: 12px;
+        font-size: 14px;
+        color: rgba(50,50,50,.5);
+       }
+    } 
+
+    .flags{
+      position: relative;
+      .us{
+        position: relative;
+        .sidea{
+          position: absolute;
+          right: 400px;
+          top: 40px;
+          font-size: 20px;
+          border: 1px solid rgba(50,50,50,.1);
+          border-radius: 5px;
+          padding: 23px;
+          width: 28%;
+        }
+        .sideb{
+          position: absolute;
+          right: -20px;
+          top: 60px;
+          img{
+            width: 8%;
+          }
+        }
+      }
+
+      .az{
+        position: relative;
+        .sidec{
+          position: absolute;
+          right: 30px;
+          top: 40px;
+          font-size: 20px;
+          border: 1px solid rgba(50,50,50,.1);
+          border-radius: 5px;
+          padding: 23px;
+          width: 28%;
+        }
+        .sided{
+          position: absolute;
+          right: -400px;
+          top: 63px;
+          img{
+            width: 5%;
+            border-radius: 20px;
+          }
+        }
+      }
+
+      .arrow{
+        position: relative;
+        i{
+          position: absolute;
+          color: #FF6400;
+          right: 355px;
+          top: 68px;
+          font-size: 23px;
+        }
+      }
+    }
+  }
+}
+
+#ubank-news{
+  margin-top: 50px;
+  overflow: hidden;
+
+  .all{
+    display: flex;
+    justify-content: space-between;
+    background-color: #FAFAFA;
+    border-radius: 10px;
+    width: 99.5%;
+    position: relative;
+    left: 1.3rem;
+    a{
+      text-decoration: none;
+    }
+    .ucard{
+      border-radius: 10px;
+      height: 20rem;
+      margin-bottom: 15px;
+      .first{
+        background-color: #FAFAFA;
+        .top{
+          color: #FF6400;
+          font-size: 18px;
+          font-weight: 700;
+          padding-left: 15px;
+          padding-right: 10px;
+          width: 110%;
+          padding-top: 25px;
+        }
+    
+        .info{
+          font-size: 15px;
+          line-height: 25px;
+          color: gray;
+          padding: 0px 15px;
+        }
+    
+        #date{
+          color: gray;
+          font-size: 13px;
+          padding-left: 16px;
+        }
+      }
+      
+    }
+  
+    .second{
+      .top{
+        color: #FF6400;
+        font-size: 18px;
+        font-weight: 700;
+        padding-left: 0px;
+        padding-right: 10px;
+        width: 110%;
+        padding-top: 25px;
+      }
+      .info{
+        font-size: 15px;
+        line-height: 23px;
+        color: gray;
+  
+  
+      }
+      #date{
+        color: gray;
+        font-size: 13px;
+        padding-top: 35px;
+      }
+  
+    }
+  
+    .third{
+      .top{
+        color: #FF6400;
+        font-size: 18px;
+        font-weight: 700;
+        padding-left: 0px;
+        padding-right: 10px;
+        width: 110%;
+        padding-top: 25px;
+      }
+     .info{
+        font-size: 12.7px;
+        line-height: 23px;
+        width: 101%;
+        color: gray;
+        padding-left: 0.9px;
+      }
+      #date{
+        color: gray;
+        font-size: 13px;
+        padding-top: 53px;
+      }
+  
+    } 
+  }
+}
+
+.news{
+  text-align: center;
+  z-index: 666;
+
+  #newsall {
+    transform: translateY(-50%, -50%);
+    margin-top: 40px;
+    padding: 13px 25px;
+    border: none;
+    border-radius: 40px;
+    background-color: #FF6400;
+    #link {
+      text-decoration: none;
+      color: #FF6400;
+      font-weight: bold;
+      color: white;
+    }
+  }
+}
+
+#dot{
+  .all{
+    position: relative;
+    left: 7rem;
+    width: 86%;
+    display: flex;
+    justify-content: space-between;
+    padding: 3.6rem 2rem;
+    margin-top: 2.7rem;
+    border-radius: 10px;
+    .service{
+        padding: 1rem 2rem;
+        height: 225px;
+        margin-bottom: 1rem;
+        
+        h2{
+            font-size: 30px;
+            font-weight: bold;
+            width: 50%;
+            color: #FF6400;
+        }
+        p{
+          font-size: 17px;
+          width: 60%;
+          margin-bottom: 2rem;
+        }
+        a{
+            font-size: 12px;
+            background-color: #FF6400;
+            border: none;
+            padding: 20px 50px;
+            border-radius: 40px;
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            font-size: 14px;
+    
+        }
+        img{
+          width: 20%;
+          position: absolute;
+          left: 39%;
+          top: 76px;
+        }
+    }
+
+    .connection{
+      margin-bottom: 1rem;
+        h2{
+            font-size: 30px;
+            font-weight: bold;
+            width: 75%;
+            margin-bottom: 1rem;
+            color: #FF6400;
+          }
+        p{
+            font-size: 17px;
+            width: 90%;
+            margin-bottom: 2rem;
+          }
+        a{
+          font-size: 12px;
+          background-color: #FF6400;
+          border: none;
+          padding: 20px 50px;
+          border-radius: 40px;
+          text-decoration: none;
+          color: white;
+          font-weight: bold;
+          font-size: 14px;
+        }
+
+        img{
+          position: absolute;
+          right: 18px;
+          top: 0px;
+        }
+    }
+  }
+}
+
+footer{
+  margin-top: 10rem;
+  #footer1{
+      a{
+        text-decoration: none;
+      }
+      .footer1{
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        .list{
+          .first{
+            color: black;
+            font-weight: 700;
+          }
+
+          .second{
+            color: rgb(44, 44, 44);
+            font-weight: 500;
+            font-size: 13px;
+          }
+        }
+      }
+
+      .icons {
+        margin-bottom: 2rem;
+        .orange{
+          color: #FF6400;
+        } 
+        .round{
+          border-radius: 50%;
+        }
+        i{
+          padding-left: 18px;
+          font-size: 27px;
+          color: gray;
+        }
+      }
+    }
+  }
+  
+  #footer2 {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    .footerleft{
+      width: 60%;
+      .top{
+        color: #333333;
+        font-size: 13px;
+      }
+      .bot{
+        color: rgb(111, 111, 111);
+        font-size: 13px;
+        font-weight: 100;
+        word-spacing: 2px;
+        width: 90%;
+      }
+    }
+    .footerimg {
+      width: 40%;
+      display: flex;
+      align-items: center;
+  
+      .sigorta {
+        width: 40%;
+  
+        img {
+          width: 60%
+        }
+      }
+      .elektron {
+        width: 40%;
+  
+        img {
+          width: 130%
+  
+        }
+      }
+      .infobank{
+        width: 40%;
+        margin-left: 30px;
+  
+        img {
+          width: 80%
+        }
+      }
+      .portal{
+        margin-left: 10px;
+        width: 40%;
+  
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }

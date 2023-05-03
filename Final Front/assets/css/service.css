@@ -1,0 +1,168 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+#maps h3 {
+  color: #FF6400;
+  margin-top: 30px;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+#maps #map {
+  width: 100%;
+  height: 325px;
+  margin-top: 90px;
+}
+#maps .allbuttons button {
+  padding: 15px 35px;
+  background-color: #FAFAFA;
+  margin: 0px 5px;
+  color: grey;
+  border: 2px solid grey;
+  border-radius: 40px;
+}
+#maps #firstbtn {
+  padding: 15px 35px;
+  margin: 0px 5px;
+  border-radius: 40px;
+}
+#maps .active {
+  color: #FF6400;
+  font-weight: bold;
+  padding: 15px 35px;
+  margin: 0px 5px;
+  border-radius: 40px;
+  border: 2px solid #FF6400;
+  border-color: #FF6400;
+  background-color: white;
+}
+
+#time {
+  margin: 20px;
+}
+#time .xidmetvaxtlari .samecard {
+  background-color: #FAFAFA;
+  width: 100%;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 200px;
+}
+#time .xidmetvaxtlari .samecard:hover {
+  background-color: #FF6400;
+  color: white;
+  font-weight: bold;
+}
+#time .xidmetvaxtlari .samecard:hover i {
+  color: white;
+}
+#time .xidmetvaxtlari .samecard i {
+  color: #FF6400;
+}
+#time .xidmetvaxtlari .samecard .lefttext h4 {
+  padding-top: 20px;
+  padding-left: 30px;
+}
+#time .xidmetvaxtlari .samecard .lefttext p {
+  width: 160%;
+  padding-left: 30px;
+}
+#time .xidmetvaxtlari .samecard .center {
+  display: flex;
+  padding-top: 20px;
+}
+#time .xidmetvaxtlari .samecard .center i {
+  font-size: 40px;
+  padding-right: 8px;
+  padding-top: 6px;
+}
+#time .xidmetvaxtlari .samecard .center p {
+  width: 65%;
+}
+#time .xidmetvaxtlari .samecard .right {
+  display: flex;
+  padding-top: 20px;
+}
+#time .xidmetvaxtlari .samecard .right i {
+  padding-top: 6px;
+  padding-right: 10px;
+  font-size: 40px;
+}
+#time .xidmetvaxtlari .samecard .right p {
+  width: 65%;
+}
+#time .time .samecard2 {
+  background-color: #FAFAFA;
+  width: 100%;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 200px;
+}
+#time .time .samecard2:hover {
+  transition: 0.5s;
+  background-color: #FF6400;
+  color: white;
+}
+#time .time .samecard2:hover i {
+  color: white;
+}
+#time .time .samecard2 .lefttext2 h4 {
+  padding-top: 20px;
+  padding-left: 30px;
+  width: 140%;
+}
+#time .time .samecard2 .lefttext2 p {
+  width: 160%;
+  padding-left: 30px;
+}
+#time .time .samecard2 .center2 {
+  display: flex;
+  padding-top: 30px;
+  padding-left: 90px;
+}
+#time .time .samecard2 .center2 i {
+  font-size: 40px;
+  padding-right: 8px;
+  padding-top: 6px;
+  color: #FF6400;
+}
+#time .time .samecard2 .center2 p {
+  width: 65%;
+}
+#time .time .samecard2 .right2 {
+  display: flex;
+  padding-top: 30px;
+  padding-right: 0px;
+  width: 45%;
+}
+#time .time .samecard2 .right2 i {
+  padding-top: 0px;
+  padding-right: 10px;
+  font-size: 40px;
+}
+#time .time .samecard2 .right2 p {
+  font-size: 13px;
+  width: 90%;
+  padding-top: 10px;
+}
+#time .time .samecard2 .right3 {
+  display: flex;
+  padding-top: 30px;
+  width: 35%;
+}
+#time .time .samecard2 .right3 i {
+  padding-top: 0px;
+  padding-right: 15px;
+  font-size: 40px;
+}
+#time .time .samecard2 .right3 p {
+  font-size: 13px;
+  width: 90%;
+  padding-top: 10px;
+}/*# sourceMappingURL=service.css.map */

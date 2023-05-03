@@ -1,0 +1,181 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: sans-serif;
+}
+
+.top {
+  padding-top: 2rem;
+}
+.top h1 {
+  font-size: 35px;
+  font-weight: bold;
+  color: #FF6400;
+}
+
+.ucard {
+  padding: 3rem 4rem;
+  background-color: #FAFAFA;
+  border-radius: 10px;
+  margin: 2rem 0;
+}
+.ucard .gif {
+  margin-right: 3rem;
+}
+.ucard .gif img {
+  width: 110%;
+}
+.ucard h1 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+.ucard h1 span {
+  color: black;
+  font-size: 29px;
+  font-weight: bold;
+}
+.ucard h1 a {
+  text-decoration: none;
+  background-color: #FF6400;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 16px 40px;
+  border-radius: 30px;
+}
+.ucard h1 i {
+  font-size: 17px;
+}
+.ucard p {
+  color: black;
+  font-size: 16px;
+  font-weight: 200;
+  word-spacing: 3px;
+}
+.ucard .sail {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+}
+.ucard .sail .box i {
+  font-size: 36px;
+  color: #FF6400;
+  margin-right: 10px;
+}
+.ucard .sail .box p {
+  display: inline-block;
+  width: 50%;
+  color: black;
+  font-size: 18px;
+  font-weight: 550;
+  line-height: 18px;
+}
+
+.shop {
+  padding: 1rem 0;
+}
+.shop .box {
+  padding: 3rem 4rem;
+  background-color: #FAFAFA;
+  margin-bottom: 1rem;
+  height: 386px;
+  border-radius: 10px;
+}
+.shop .box .debit {
+  width: 60%;
+  border-radius: 10px;
+}
+.shop .box .debit img {
+  width: 50%;
+  border-radius: 10px;
+  box-shadow: -17px 17px 34px 0 rgba(29, 28, 28, 0.24);
+}
+.shop .box .text h2 {
+  margin-top: 2rem;
+  font-size: 24px;
+  font-weight: 600;
+  color: black;
+}
+.shop .box .text p {
+  font-size: 14px;
+  color: black;
+  font-weight: 400;
+  margin-top: 1rem;
+}
+.shop .box .text .price {
+  font-size: 20px;
+  color: black;
+  font-weight: 600;
+}
+.shop .box .text button {
+  color: white;
+  background-color: #FF6400;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 25px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+@media (max-width: 576px) {
+  .ucard {
+    padding: 1.5rem 2rem 6rem 2rem;
+  }
+  .ucard .gif {
+    padding: 0 4rem;
+  }
+  .ucard p {
+    font-size: 12px;
+  }
+  .ucard h1 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+  }
+  .ucard h1 span {
+    font-size: 18px;
+  }
+  .ucard h1 a {
+    position: absolute;
+    top: 680%;
+  }
+  .ucard .sail .box i {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+  }
+  .ucard .sail .box p {
+    text-align: center;
+    display: block;
+    width: 60%;
+    margin: auto;
+    font-size: 13px;
+  }
+  .shop .box {
+    padding: 1.5rem 2rem;
+  }
+  .shop .box .debit {
+    width: 100%;
+  }
+  .shop .box .text h2 {
+    text-align: center;
+    margin-top: 0.5rem;
+    font-size: 18px;
+  }
+  .shop .box .text p {
+    font-size: 11px;
+    text-align: center;
+    margin-top: 0.5rem;
+  }
+  .shop .box .text .price {
+    font-size: 18px;
+    margin: 0;
+  }
+  .shop .box .text button {
+    font-size: 14px;
+    padding: 10px 20px;
+    display: block;
+    margin: 1rem auto 0;
+  }
+}/*# sourceMappingURL=cards.css.map */

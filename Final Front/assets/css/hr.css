@@ -1,0 +1,241 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+#resurs {
+  margin-bottom: 30px;
+}
+#resurs h3 {
+  font-size: 30px;
+  font-weight: bold;
+  color: #FF6400;
+  padding-top: 30px;
+  padding-bottom: 15px;
+  margin-left: 20px;
+}
+#resurs .active {
+  border: 3px solid;
+  border-color: #FF6400;
+  background-color: white;
+}
+#resurs .active a {
+  color: #FF6400;
+  font-weight: bold;
+}
+#resurs button {
+  margin-left: 30px;
+  border: 3px solid grey;
+  padding: 10px 45px;
+  border-radius: 40px;
+  background-color: #ffffff;
+}
+#resurs button a {
+  text-decoration: none;
+  color: grey;
+  font-weight: bold;
+}
+#resurs .video {
+  background-image: url("/assets/img/bg image unibank.jpg");
+  position: relative;
+  height: 300px;
+  margin: 40px auto;
+  border-radius: 10px;
+  cursor: pointer;
+}
+#resurs .video #video {
+  width: 100%;
+  height: 300px;
+  border-radius: 10px;
+}
+
+#about {
+  margin-top: 4rem;
+}
+#about a {
+  text-decoration: none;
+}
+#about .card {
+  text-align: center;
+  background-color: #FAFAFA;
+  margin: 0px 40px;
+  margin-bottom: 50px;
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 50px;
+  transition: 0.6s;
+}
+#about .card:hover {
+  background-color: #FF6400;
+}
+#about .card:hover p, #about .card:hover i {
+  color: white;
+}
+#about .card .top {
+  font-size: 23px;
+  padding-top: 25px;
+  font-weight: bold;
+}
+#about .card :nth-child(3) {
+  padding: 0px 75px;
+}
+#about .card .team {
+  padding: -10px;
+}
+#about .card .order {
+  padding: 0px 20px;
+  padding-bottom: 29px;
+}
+#about .card .study {
+  padding-bottom: 57px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+#about .card i {
+  text-align: center;
+  color: #FF6400;
+  font-size: 60px;
+  padding-top: 40px;
+}
+
+#people #info {
+  background-color: #FAFAFA;
+  border-radius: 10px;
+  padding-bottom: 10px;
+  margin-left: 43px;
+}
+#people #info .foto {
+  padding-left: 90px;
+  padding-top: 50px;
+  border-radius: 40px;
+}
+#people #info .foto img {
+  width: 100%;
+  border-radius: 80px;
+}
+#people .name {
+  padding-top: 20px;
+  padding-left: 76px;
+  line-height: 26px;
+}
+#people .name .description {
+  color: rgb(121, 121, 121);
+}
+#people .name #about {
+  padding-right: 19px;
+  font-size: 14px;
+  padding-bottom: 10px;
+  padding-top: 0px;
+}
+#people .name #about2 {
+  padding-right: 20px;
+  font-size: 14px;
+  padding-top: 45px;
+}
+
+#aboutmain .container {
+  position: relative;
+  left: 9px;
+  margin-top: 40px;
+  background-color: #FAFAFA;
+  width: 83.5%;
+  border-radius: 10px;
+}
+#aboutmain h1 {
+  color: #FF6400;
+  font-weight: bold;
+  padding-top: 50px;
+  padding-left: 60px;
+}
+#aboutmain p {
+  padding: 0px 60px;
+  line-height: 23px;
+  padding-bottom: 35px;
+}
+
+#fursetler {
+  margin-top: 40px;
+}
+#fursetler .col-lg-2-5 {
+  background-color: #FF6400;
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  padding: 30px 0px;
+}
+#fursetler .col-lg-2-5 p {
+  font-size: 14px;
+}
+#fursetler i {
+  font-size: 50px;
+  padding-top: 25px;
+}
+#fursetler .card1 p {
+  padding: 10px 60px;
+  font-size: 14px;
+}
+#fursetler .card2 p {
+  padding: 10px 60px;
+}
+#fursetler .card3 p {
+  padding: 10px 60px;
+}
+#fursetler .card4 p {
+  padding: 10px 20px;
+}
+
+#check {
+  padding: 0rem 7rem;
+}
+#check .checked {
+  margin: 2rem 0 3rem;
+}
+#check .checked .box {
+  background-color: #FF6400;
+  border-radius: 10px;
+  padding: 2rem;
+  height: 200px;
+}
+#check .checked .box .icon {
+  text-align: center;
+}
+#check .checked .box .icon i {
+  color: white;
+  font-size: 52px;
+}
+#check .checked .box .text {
+  margin-top: 1.3rem;
+}
+#check .checked .box .text p {
+  text-align: center;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  width: 90%;
+  margin: auto;
+}
+
+#bot .title {
+  padding-left: 2.6rem;
+  color: #FF6400;
+  font-weight: bold;
+  font-size: 32px;
+}
+#bot .about {
+  padding: 1rem 2.7rem;
+}
+#bot .about .box h2 {
+  font-size: 22px;
+  color: black;
+  font-weight: bold;
+}
+#bot .about .box p {
+  color: black;
+  font-size: 16px;
+  line-height: 26px;
+}
+#bot .about .box p span {
+  font-weight: 500;
+}/*# sourceMappingURL=hr.css.map */
